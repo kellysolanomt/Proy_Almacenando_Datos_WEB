@@ -57,7 +57,6 @@ export const createTask = ({ value, dateFormat, complete, id }) => {
     taskContent.appendChild(titleTask);
 
     task.appendChild(taskContent);
-    task.appendChild(dateElement);
     task.appendChild(deleteIcon(id));
     return task;
 
